@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/mo-doc/mo-tool/issues"
   },
-  "homepage": "https://github.com/mo-doc/mo-tool"
+  "homepage": "https://github.com/mo-doc/mo-tool",
+  "dependencies": {
+    "lodash": "^2.4.1"
+  }
 }

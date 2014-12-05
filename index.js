@@ -1,8 +1,8 @@
 var fs = require("fs");
 // 指令配置
 var DIRECTIVE_CONFIG = require("./util/config");
-// 
-var PATH  = require("./util/path");
+
+// var PATH  = require("./util/path");
 // 命令参数
 var args = process.argv;
 
@@ -20,7 +20,6 @@ var pkg = JSON.parse(fs.readFileSync(PKG_FILE), 'utf8');
 // 检测异常命令参数
 if(args.length < 2)
 	log.error("系统错误,参数问题"+args.toString());
-
 
 // 获取使用指令
 var controller = args[2];
