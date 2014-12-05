@@ -1,17 +1,23 @@
 {
   "name": "mo-tool",
-  "version": "0.1.0",
-  "description": "mo-doc tool",
-  "directories": {
-
+  "version": "1.0.0",
+  "description": "mo-doc plug-in",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mo-doc/mo-tool.git"
   },
   "keywords": [
-  	"mo-doc"
+    "plug-in",
+    "mo-doc"
   ],
-  "author": {
-    "name": "yyy"
+  "author": "yyy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mo-doc/mo-tool/issues"
   },
-  "dependencies": {
-   "lodash": "^2.4.1"
-  }
+  "homepage": "https://github.com/mo-doc/mo-tool"
 }
