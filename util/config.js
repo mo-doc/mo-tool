@@ -1,0 +1,4 @@
+module.exports = {
+	"pushlish":"上传，更新文档",
+	"help":"帮助"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "mo-tool",
+  "version": "0.1.0",
+  "description": "mo-doc tool",
+  "directories": {
+
+  },
+  "keywords": [
+  	"mo-doc"
+  ],
+  "author": {
+    "name": "yyy"
+  },
+  "dependencies": {
+   "lodash": "^2.4.1"
+  }
+}
