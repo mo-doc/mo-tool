@@ -8,6 +8,7 @@ module.exports = {
 	},
 	// 系统报错
 	error:function(data){
+		console.log(data);
 		process.exit(1);
 	},
 	// 用户提示
