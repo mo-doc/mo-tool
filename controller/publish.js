@@ -15,7 +15,7 @@ module.exports = function(){
 
 	var opt = {  
         method: "POST",  
-        host: "http://192.168.7.94",  
+        host: "192.168.7.94",  
         port: 3000,  
         path:"/api/component/autoadd",
         headers: {  
