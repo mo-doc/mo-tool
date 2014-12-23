@@ -24,7 +24,6 @@ module.exports = function(){
         }
     };  
 	var req = http.request(opt,function (res) {  
-         process.exit()
     }); 
 
 	req.write(data + "\n");
@@ -32,5 +31,9 @@ module.exports = function(){
     req.end();  
 
     console.log("正在发布中，等会就好了。");
+
+    setTimeout(function(){
+        process.exit()
+    },2000)
    
 }
