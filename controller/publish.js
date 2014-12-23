@@ -15,7 +15,7 @@ module.exports = function(){
 
 	var opt = {  
         method: "POST",  
-        host: "localhost",  
+        host: "http://192.168.7.94",  
         port: 3000,  
         path:"/api/component/autoadd",
         headers: {  
@@ -28,7 +28,7 @@ module.exports = function(){
     }); 
 
 	req.write(data + "\n");
-      
+
     req.end();  
 
     console.log("正在发布中，等会就好了。");
