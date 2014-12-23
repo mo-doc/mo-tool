@@ -32,6 +32,5 @@ module.exports = function(){
     req.end();  
 
     console.log("正在发布中，等会就好了。");
-
    
 }
