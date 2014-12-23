@@ -1,3 +1,6 @@
+#!/usr/bin/env node
+'use strict';
+
 var fs = require("fs");
 // 指令配置
 var DIRECTIVE_CONFIG = require("./util/config");
