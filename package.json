@@ -1,6 +1,6 @@
 {
   "name": "mo-tool",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "mo-doc plug-in",
   "main": "index.js",
   "keywords": [

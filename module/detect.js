@@ -9,7 +9,7 @@ try{
 	log.dbg("解析package.json文件出错");
 }
 
-['name','version','keywords','classify','repository'].forEach(function(key){
+['name','version','keywords','classify','code'].forEach(function(key){
 	!(key in pkg) && log.dbg("package.json文件关键属性"+key+"缺失");
 });
 
